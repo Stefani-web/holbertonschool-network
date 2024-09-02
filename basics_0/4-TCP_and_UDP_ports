@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Display listening TCP and UDP ports with PID and program name
-ss -tup
+ss -ltpnu
